@@ -1,0 +1,86 @@
+# 'EAGLE Version 9.4.2 Copyright (c) 1988-2019 Autodesk, Inc.;
+
+SET UNDO_LOG OFF;
+# Take all libraries out of use
+USE -*;
+#
+# SHEET 1 - MIGRATE PARTS
+#
+EDIT .s1
+# Migrate parts to '/home/michael/EAGLE/projects/RSO Test Set/con-amp-mt.lbr'
+USE '/home/michael/EAGLE/projects/RSO Test Set/con-amp-mt.lbr';
+REPLACE SV1 L03P;
+# Take '/home/michael/EAGLE/projects/RSO Test Set/con-amp-mt.lbr' out of use
+USE '-/home/michael/EAGLE/projects/RSO Test Set/con-amp-mt.lbr';
+# Migrate parts to '/home/michael/EAGLE/projects/RSO Test Set/con-coax.lbr'
+USE '/home/michael/EAGLE/projects/RSO Test Set/con-coax.lbr';
+REPLACE X6 1-227161-0;
+REPLACE X7 1-227161-0;
+REPLACE X8 1-227161-0;
+REPLACE X9 1-227161-0;
+REPLACE X10 1-227161-0;
+# Take '/home/michael/EAGLE/projects/RSO Test Set/con-coax.lbr' out of use
+USE '-/home/michael/EAGLE/projects/RSO Test Set/con-coax.lbr';
+# Migrate parts to '/home/michael/EAGLE/projects/RSO Test Set/diode.lbr'
+USE '/home/michael/EAGLE/projects/RSO Test Set/diode.lbr';
+REPLACE D1 DIAC-DO35-10;
+# Take '/home/michael/EAGLE/projects/RSO Test Set/diode.lbr' out of use
+USE '-/home/michael/EAGLE/projects/RSO Test Set/diode.lbr';
+# Migrate parts to '/home/michael/EAGLE/projects/RSO Test Set/frames.lbr'
+USE '/home/michael/EAGLE/projects/RSO Test Set/frames.lbr';
+REPLACE FRAME1 A4L-LOC;
+# Take '/home/michael/EAGLE/projects/RSO Test Set/frames.lbr' out of use
+USE '-/home/michael/EAGLE/projects/RSO Test Set/frames.lbr';
+# Migrate parts to '/home/michael/EAGLE/projects/RSO Test Set/fuse.lbr'
+USE '/home/michael/EAGLE/projects/RSO Test Set/fuse.lbr';
+REPLACE F1 SH22,5A;
+REPLACE F2 SH22,5A;
+# Take '/home/michael/EAGLE/projects/RSO Test Set/fuse.lbr' out of use
+USE '-/home/michael/EAGLE/projects/RSO Test Set/fuse.lbr';
+# Migrate parts to '/home/michael/EAGLE/projects/RSO Test Set/rcl.lbr'
+USE '/home/michael/EAGLE/projects/RSO Test Set/rcl.lbr';
+REPLACE C2 C-EUC0805;
+REPLACE C3 C-EUC0805;
+REPLACE C4 C-EUC0805;
+REPLACE C5 C-EUC0805;
+REPLACE C6 CPOL-EU140CLH-1010;
+REPLACE C7 C-EUC0805;
+REPLACE R1 R-EU_R2512W;
+REPLACE R2 R-EU_M0805;
+REPLACE R3 R-EU_M0805;
+REPLACE R4 R-EU_M0805;
+REPLACE R5 R-TRIMM3339P;
+REPLACE R6 R-TRIMM3339P;
+# Take '/home/michael/EAGLE/projects/RSO Test Set/rcl.lbr' out of use
+USE '-/home/michael/EAGLE/projects/RSO Test Set/rcl.lbr';
+# Migrate parts to '/home/michael/EAGLE/projects/RSO Test Set/rectifier.lbr'
+USE '/home/michael/EAGLE/projects/RSO Test Set/rectifier.lbr';
+REPLACE B1 MB1S;
+# Take '/home/michael/EAGLE/projects/RSO Test Set/rectifier.lbr' out of use
+USE '-/home/michael/EAGLE/projects/RSO Test Set/rectifier.lbr';
+# Migrate parts to '/home/michael/EAGLE/projects/RSO Test Set/supply2.lbr'
+USE '/home/michael/EAGLE/projects/RSO Test Set/supply2.lbr';
+REPLACE SUPPLY1 GND;
+REPLACE SUPPLY2 GND;
+REPLACE SUPPLY3 GND;
+REPLACE SUPPLY4 GND;
+REPLACE SUPPLY5 GND;
+REPLACE SUPPLY6 GND;
+REPLACE SUPPLY7 GND;
+REPLACE SUPPLY8 GND;
+# Take '/home/michael/EAGLE/projects/RSO Test Set/supply2.lbr' out of use
+USE '-/home/michael/EAGLE/projects/RSO Test Set/supply2.lbr';
+# Migrate parts to '/home/michael/EAGLE/projects/RSO Test Set/switch.lbr'
+USE '/home/michael/EAGLE/projects/RSO Test Set/switch.lbr';
+REPLACE S1 LPV-1;
+# Take '/home/michael/EAGLE/projects/RSO Test Set/switch.lbr' out of use
+USE '-/home/michael/EAGLE/projects/RSO Test Set/switch.lbr';
+# Migrate parts to '/home/michael/EAGLE/projects/RSO Test Set/trafo.lbr'
+USE '/home/michael/EAGLE/projects/RSO Test Set/trafo.lbr';
+REPLACE TR2 EI38-2;
+# Take '/home/michael/EAGLE/projects/RSO Test Set/trafo.lbr' out of use
+USE '-/home/michael/EAGLE/projects/RSO Test Set/trafo.lbr';
+EDIT .s1
+SET UNDO_LOG ON;
+# Put all libraries back into use
+USE *;

@@ -19619,6 +19619,7 @@ DIN A4, landscape with location and doc. field</description>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
+<clearance class="0" value="0.205"/>
 </class>
 </classes>
 <parts>
@@ -20060,9 +20061,9 @@ R2 3 2 {val-val*var/100}
 </net>
 <net name="N$3" class="0">
 <segment>
-<wire x1="-124.46" y1="149.86" x2="-119.38" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="-119.38" y1="149.86" x2="-119.38" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="-119.38" y1="152.4" x2="-124.46" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="149.86" x2="-116.84" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="-116.84" y1="149.86" x2="-116.84" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="-116.84" y1="152.4" x2="-124.46" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="TR2" gate="1" pin="4"/>
 <pinref part="TR2" gate="1" pin="5"/>
 </segment>

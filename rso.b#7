@@ -61,12 +61,8 @@
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyY2Y2NzJl" projecturn="a.cGVyc29uYWw6dWUyY2Y2NzJlIzIwMTkwMjA3MTc1MDU2NDc2" f3durn="urn:adsk.wipprod:dm.lineage:FiFAH1hBSyWmjjBYBa1dgw" pcbguid="f960fc2a-2b32-407c-9770-35766e7a4fbe" lastpulledtime="" lastsyncedchangeguid="0dde04b5-9b67-5467-3c99-8829cb546cc4"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyY2Y2NzJl" projecturn="a.cGVyc29uYWw6dWUyY2Y2NzJlIzIwMTkwMjA3MTc1MDU2NDc2" f3durn="urn:adsk.wipprod:dm.lineage:FiFAH1hBSyWmjjBYBa1dgw" pcbguid="f960fc2a-2b32-407c-9770-35766e7a4fbe" lastpulledtime="2019-08-25T02:03:00Z" lastsyncedchangeguid="2742b545-3357-ebeb-830b-eff6cff16154"/>
 <plain>
-<wire x1="0" y1="0" x2="160" y2="0" width="0" layer="20"/>
-<wire x1="160" y1="0" x2="160" y2="100" width="0" layer="20"/>
-<wire x1="160" y1="100" x2="0" y2="100" width="0" layer="20"/>
-<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
 <hole x="5.08" y="5.08" drill="0.9"/>
 <hole x="3.81" y="96.52" drill="0.9"/>
 <hole x="154.94" y="5.08" drill="0.9"/>
@@ -74,6 +70,11 @@
 <hole x="55.88" y="39.37" drill="0.9"/>
 <hole x="57.15" y="10.16" drill="0.9"/>
 <hole x="6.35" y="38.1" drill="0.9"/>
+<wire x1="0" y1="0" x2="160" y2="0" width="0.254" layer="20"/>
+<wire x1="160" y1="0" x2="160" y2="100" width="0.254" layer="20"/>
+<wire x1="160" y1="100" x2="0" y2="100" width="0.254" layer="20"/>
+<wire x1="0" y1="100" x2="0" y2="0" width="0.254" layer="20"/>
+<text x="110.49" y="39.37" size="3.81" layer="21">Surge Generator</text>
 </plain>
 <libraries>
 <library name="rectifier" urn="urn:adsk.eagle:library:336">
@@ -1944,9 +1945,9 @@ design rules under a new name.</description>
 </element>
 <element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="140CLH-1010" package3d_urn="urn:adsk.eagle:package:23391/2" value="47uf" x="86.36" y="19.05" smashed="yes">
 <attribute name="MF" value="PANASONIC" x="158.75" y="-71.12" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="EEEFT1H470AP" x="158.75" y="-71.12" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="EEEFK1K470P" x="158.75" y="-71.12" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="87.43" y="18.44" size="1.27" layer="25"/>
-<attribute name="OC_FARNELL" value="1868425" x="158.75" y="-71.12" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="9696105" x="158.75" y="-71.12" size="1.778" layer="27" display="off"/>
 <attribute name="POPULARITY" value="0" x="158.75" y="-71.12" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="158.75" y="-71.12" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="82.985" y="16.165" size="1.27" layer="27"/>
@@ -2041,10 +2042,10 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="127.745" y="76.175" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="S1" library="switch" library_urn="urn:adsk.eagle:library:380" package="LPV-1" package3d_urn="urn:adsk.eagle:package:27681/1" value="" x="69.85" y="2.54" smashed="yes">
-<attribute name="MF" value="ROXBURGH" x="124.46" y="-15.24" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RIQ-0642-H2" x="124.46" y="-15.24" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="QUALTEK ELECTRONICS" x="124.46" y="-15.24" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="761-18/003" x="124.46" y="-15.24" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="55.372" y="2.667" size="1.778" layer="25" ratio="10" rot="R90"/>
-<attribute name="OC_FARNELL" value="1101088" x="124.46" y="-15.24" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1425202" x="124.46" y="-15.24" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="73.279" y="16.637" size="1.778" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="SV1" library="con-amp-mt" library_urn="urn:adsk.eagle:library:123" package="L03P" package3d_urn="urn:adsk.eagle:package:5781/1" value="" x="20.32" y="72.39" smashed="yes" rot="R90">

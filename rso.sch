@@ -19619,6 +19619,7 @@ DIN A4, landscape with location and doc. field</description>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
+<clearance class="0" value="0.205"/>
 </class>
 </classes>
 <parts>
@@ -19639,7 +19640,7 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="OC_FARNELL" value="1469887"/>
 <attribute name="RS_NUMBER" value="178-1862"/>
 </part>
-<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIAC-" device="DO35-10" package3d_urn="urn:adsk.eagle:package:43344/2">
+<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIAC-" device="DO35-10" package3d_urn="urn:adsk.eagle:package:43344/2" value="none">
 <attribute name="MF" value="NTE ELECTRONICS"/>
 <attribute name="MPN" value="NTE6408"/>
 <attribute name="OC_FARNELL" value="1530937"/>
@@ -19881,7 +19882,7 @@ R2 3 2 {val-val*var/100}
 <attribute name="MPN" x="-73.66" y="172.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D1" gate="-B1" x="-30.48" y="172.72" smashed="yes">
-<attribute name="NAME" x="-29.718" y="173.609" size="1.778" layer="95"/>
+<attribute name="NAME" x="-29.718" y="173.609" size="1.778" layer="95" display="off"/>
 <attribute name="VALUE" x="-29.718" y="170.053" size="1.778" layer="96"/>
 <attribute name="OC_FARNELL" x="-30.48" y="172.72" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-30.48" y="172.72" size="1.778" layer="96" display="off"/>
@@ -20300,6 +20301,15 @@ R2 3 2 {val-val*var/100}
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,-31.75,173.111,D1,,,,,"/>
+<approved hash="113,1,-147.32,152.105,S1,,,,,"/>
+<approved hash="113,1,-187.346,187.96,SV1,,,,,"/>
+<approved hash="113,1,-70.589,127.531,FRAME1,,,,,"/>
+<approved hash="113,1,-7.18566,177.8,R5,,,,,"/>
+<approved hash="113,1,-7.18566,149.86,R6,,,,,"/>
+<approved hash="113,1,-130.81,152.613,TR2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
